@@ -1,0 +1,24 @@
+File list in order of install within Virtualbox 6.1
+started with DE Cinnamon
+
+System Settings / Preferred applications
+File Manager  : Nemo
+Web           : Chromium
+Mail          : 
+Documents     : 
+Plain Text    : Text Editor (xed)
+Music         : 
+Video         : 
+Photos        : 
+Source Code   : Vim
+PDF           : 
+Terminal      : 
+Calculator    : 
+
+
+
+https://archlinux.org/
+From pacman
+
+xed
+virtualbox-guest-utils
