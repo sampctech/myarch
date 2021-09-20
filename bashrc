@@ -8,6 +8,6 @@
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
-if [ -f ~/.bashrc_personal ]; then
-    .~/.bashrc_personal
+if [ -f ~/.bash_alias ]; then
+    .~/.bash_alias
 fi
