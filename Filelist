@@ -18,7 +18,12 @@ Calculator    :
 
 
 https://archlinux.org/
-From pacman
+sudo pacman -S
 
+nano
 xed
 virtualbox-guest-utils
+git
+curl
+wget
+libreoffice-fresh
