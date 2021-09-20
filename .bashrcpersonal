@@ -1,0 +1,17 @@
+#
+# .bashrcpersonal
+#
+
+#personal setting & aliases
+
+alias lsa='ls -la --color=auto'
+PS1='[\u@\h \W]\$
+
+alias rb='bash'
+alias update='sudo pacman -Syyu --noconfirm --needed'
+alias upd='update'
+alias sds='shutdown now'
+alias sr='reboot'
+alias install='sudo pacman -S --noconfirm --needed'
+alias ada='install'
+alias setupbase='chmod +777 setupbase && ./setupbase'
