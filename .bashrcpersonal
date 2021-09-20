@@ -15,3 +15,18 @@ alias sr='reboot'
 alias install='sudo pacman -S --noconfirm --needed'
 alias ada='install'
 alias setupbase='chmod +777 setupbase && ./setupbase'
+alias evsudo='sudo EDITOR=nano visudo'
+
+#get fastest mirrors in your neighborhood
+alias mUSA='sudo reflector -c US -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist'
+
+#add yay aur helper
+alias addyay='git clone https://aur.archlinux.org/yay.git && curl -L -O https://aur.archlinux.org/cgit/aur.git/snapshot/yay.tar.gz && cd yay && makepkg -si'
+
+#fix obvious typo's
+alias intal='install'
+alias insal='install'
+alias instal='install'
+alias uintal='uninstall'
+alias uinsal='uninstall'
+alias uinstal='uninstall'
