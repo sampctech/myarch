@@ -15,15 +15,39 @@ PDF           :
 Terminal      : 
 Calculator    : 
 
-
-
 https://archlinux.org/
-sudo pacman -S
+
+archinstall
 
 nano
-xed
-virtualbox-guest-utils
 git
 curl
 wget
+
+sudo pacman -S
+cinnamon sddm
+
+The default configuration file for SDDM can be found at /usr/lib/sddm/sddm.conf.d/default.conf
+For any changes, create configuration file(s) in /etc/sddm.conf.d/
+Autologin
+/etc/sddm.conf.d/autologin.conf
+--------------------------------
+/etc/sddm.conf.d/autologin.conf
+[Autologin]
+User=USER
+Session=cinnamon
+
+xed
+xreader
+chromium
+virtualbox-guest-utils
 libreoffice-fresh
+
+
+
+
+AUR
+
+xviewer
+xplayer
+pix
